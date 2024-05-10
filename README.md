@@ -6,4 +6,4 @@ We are a group of students from Johns Hopkins University. Our project is focusin
 
 This repository will contain our source codes and every week progress.
 
-The database we are going to use is **eICU Database**, you can download the database on their website: https://physionet.org/content/eicu-crd/2.0/
+The database we are going to use is **eICU Database**, you can access the database on their website after completing the course on data security and ethics: https://physionet.org/content/eicu-crd/2.0/
