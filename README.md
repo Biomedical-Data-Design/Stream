@@ -11,7 +11,7 @@ This repository contains the source code and presentation slides every week.
 The database used in this project is **eICU**, you may access the database on their [website](https://physionet.org/content/eicu-crd/2.0/) after completing the course on data security and ethics.
 
 ## <a name="Tutorial">Tutorial:</a>
-This project is written in Python 3. You can use the software online using [Colaboratory](#Colaboratory) and upload your data to your Google Drive (Recommended), or run it on your local machine.
+This project is written in Python 3. You can use the software online using [Colaboratory](#Colaboratory) and upload your data to your Google Drive (Recommended), or run it on your [local machine](#Local).
 
 ### <a name="Colaboratory">Google Colaboratory</a>
 When using Google Colaboratory, all the csv files will be generated in the directory 'My Drive/Colab Notebooks'.
