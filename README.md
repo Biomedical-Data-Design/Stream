@@ -14,7 +14,7 @@ Included here are the source code, weekly presentation slides, and additional re
 This project is written in Python 3. You can run this project online using [Colaboratory](#Colaboratory) and upload your data to your Google Drive (Recommended), or run it on your [local machine](#Local).
 
 ### <a name="Colaboratory">Google Colaboratory</a>
-When using Google Colaboratory, most of the csv files will be generated in the directory 'My Drive/Colab Notebooks'.
+When using Google Colaboratory, most of the csv files will be generated in the directory 'My Drive/Colab Notebooks', only the model input data will be stored in 'Stream/Models' automatically. 
 
 #### STEP 1: Clone Github Repo into Colaboratory
 To clone the Github Repository into Google Colaboratory, click and run [this link](https://colab.research.google.com/drive/10gxtdar30BKisl2nQVtBzF25HMZpFht3?usp=drive_linkhttps://colab.research.google.com/drive/10gxtdar30BKisl2nQVtBzF25HMZpFht3?usp=drive_link). You will create a folder named 'Stream' in your Google Drive.
