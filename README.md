@@ -25,12 +25,12 @@ Upload eICU files (unzipped) to your Google Drive and rename the path as: 'EICU/
 
 **STEP 3: Extract Available Patient IDs**
 
-Go to file 'Stream/Preprocess/func_check_patient_num.ipynb' and run the notebook. This notebook will extract patients with all 13 features available and generate the file 'Final_available_patients.csv'. The extracted features and the generated file should be in 'My Drive/Colab Notebooks'. This step shall take a few minutes if using the whole eICU database.
+Go to file 'Stream/Preprocess/func_check_patient_num.ipynb' and run the notebook. This notebook will extract patients with all 13 features available and generate the file 'Final_available_patients.csv'. The generated file should be in 'My Drive/Colab Notebooks'. This step shall take a few minutes if using the whole eICU database.
 
 
 **Step 4: Align Data**
 
-
+Run all 
 
 
 
