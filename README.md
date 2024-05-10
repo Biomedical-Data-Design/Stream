@@ -70,7 +70,6 @@ Here we provide an example of how to install the environment on a local machine 
 ``` Bash
 # create conda environment
 conda create -n bdd python==3.9 -y
-conda activate marl
-pip install torch==1.5.1+cu101 torchvision==0.6.1+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+conda activate bdd
 ```
 
