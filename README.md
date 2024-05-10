@@ -2,7 +2,7 @@
 
 **Contributors:** Zhenyu Xiao*, Haobin Zhou*, Yimeng Xu, and Emma Cardenas.
 
-**Affiliation:** Johns Hopkins University
+**Affiliation:** Department of Biomedical Engineering, Johns Hopkins University
 
 ## <a>Project Overview</a>
 
