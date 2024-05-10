@@ -11,7 +11,7 @@ This repository is part of the **Biomedical Data Design** course, where we focus
 Included here are the source code, weekly presentation slides, and additional resources necessary to understand and engage with our project.
 
 ## <a>Getting Started:</a>
-This project is written in Python 3. You can use the software online using [Colaboratory](#Colaboratory) and upload your data to your Google Drive (Recommended), or run it on your [local machine](#Local).
+This project is written in Python 3. You can run this project online using [Colaboratory](#Colaboratory) and upload your data to your Google Drive (Recommended), or run it on your [local machine](#Local).
 
 ### <a name="Colaboratory">Google Colaboratory</a>
 When using Google Colaboratory, most of the csv files will be generated in the directory 'My Drive/Colab Notebooks'.
