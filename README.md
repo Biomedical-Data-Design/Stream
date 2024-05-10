@@ -6,7 +6,7 @@
 
 ## <a>Project Overview</a>
 
-This repository is part of the **Biomedical Data Design** course, where we focus on tracking patient recovery in real-time by processing streaming data. The primary data source for this project is the **eICU Collaborative Research Database**, accessible on their [official website](https://physionet.org/content/eicu-crd/2.0/) after completing the required course on data security and ethics.
+This repository is part of the **Biomedical Data Design** course, where we focus on tracking patient recovery in real time by processing streaming data. The primary data source for this project is the **eICU Collaborative Research Database**, accessible on their [official website](https://physionet.org/content/eicu-crd/2.0/) after completing the required course on data security and ethics.
 
 Included here are the source code, weekly presentation slides, and additional resources necessary to understand and engage with our project.
 
@@ -14,7 +14,7 @@ Included here are the source code, weekly presentation slides, and additional re
 This project is written in Python 3. You can run this project online using [Colaboratory](#Colaboratory) and upload your data to your Google Drive (Recommended), or run it on your [local machine](#Local).
 
 ### <a name="Colaboratory">Google Colaboratory</a>
-When using Google Colaboratory, most of the csv files will be generated in the directory 'My Drive/Colab Notebooks', only the model input data will be stored in 'Stream/Models' automatically. 
+When using Google Colaboratory, most of the CSV files will be generated in the directory 'My Drive/Colab Notebooks', only the model input data will be stored in 'Stream/Models' automatically. 
 
 #### STEP 1: Clone Github Repo into Colaboratory
 To clone the Github Repository into Google Colaboratory, click and run [this link](https://colab.research.google.com/drive/10gxtdar30BKisl2nQVtBzF25HMZpFht3?usp=drive_linkhttps://colab.research.google.com/drive/10gxtdar30BKisl2nQVtBzF25HMZpFht3?usp=drive_link). You will create a folder named 'Stream' in your Google Drive.
@@ -26,7 +26,7 @@ Upload eICU files (unzipped) to your Google Drive and rename the path as: 'EICU/
 
 #### STEP 3: Extract Available Patient IDs
 
-Run the file 'Stream/Preprocess/func_check_patient_num.ipynb'. This notebook will filter patients with features unavailable and generate the file 'Final_available_patients.csv'. 
+Run the file 'Stream/Preprocess/func_check_patient_num.ipynb'. This notebook will filter patients with unavailable features and generate the file 'Final_available_patients.csv'. 
 
 
 #### Step 4: Extract Data & Align
@@ -67,7 +67,7 @@ To run the project locally:
 - Set up your environment using Anaconda and CUDA as needed. See the installation guide below for details.
 
 #### Installation Guide
-Here we provide an example of how to install the environment on a local machine using anaconda and CUDA 11.8. For non-GPU & other CUDA version installation, please refer to the [PyTorch website](https://pytorch.org/get-started/locally/) when installing PyTorch. We remark that this repository does not depend on a specific CUDA version, feel free to use any CUDA version suitable on your own computer.
+Here we provide an example of how to install the environment on a local machine using Anaconda and CUDA 11.8. For non-GPU & other CUDA version installation, please refer to the [PyTorch website](https://pytorch.org/get-started/locally/) when installing PyTorch. We remark that this repository does not depend on a specific CUDA version, feel free to use any CUDA version suitable on your own computer.
 
 ``` Bash
 # create conda environment
