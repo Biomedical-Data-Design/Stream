@@ -1,16 +1,16 @@
-# Stream
+# Stream: Biomedical Data Design Project Repository
 
-**Biomedical Data Design Project Repo.**
+**Contributors:** Zhenyu Xiao*, Haobin Zhou*, Yimeng Xu, and Emma Cardenas.
 
-Zhenyu Xiao*, Haobin Zhou*, Yimeng Xu, and Emma Cardenas.
+**Affiliation:** Johns Hopkins University
 
-We are a group of students from **Johns Hopkins University**. This project is focusing on **Track patient recovery in real-time by processing streaming data** in the course **Biomedical Data Design**.
+## <a>Project Overview</a>
 
-This repository contains the source code and presentation slides every week.
+This repository is part of the **Biomedical Data Design** course, where we focus on tracking patient recovery in real-time by processing streaming data. The primary data source for this project is the **eICU Collaborative Research Database**, accessible on their [official website](https://physionet.org/content/eicu-crd/2.0/) after completing the required course on data security and ethics.
 
-The database used in this project is **eICU**, you may access the database on their [website](https://physionet.org/content/eicu-crd/2.0/) after completing the course on data security and ethics.
+Included here are the source code, weekly presentation slides, and additional resources necessary to understand and engage with our project.
 
-## <a name="Tutorial">Tutorial:</a>
+## <a>Getting Started:</a>
 This project is written in Python 3. You can use the software online using [Colaboratory](#Colaboratory) and upload your data to your Google Drive (Recommended), or run it on your [local machine](#Local).
 
 ### <a name="Colaboratory">Google Colaboratory</a>
@@ -62,17 +62,19 @@ For **LSTM**, run the notebook 'Stream/Preprocessing/Balance_LSTM.ipynb' to gene
 
 
 ### <a name="Local">Local Machine</a>
-When running on a local machine, you need to modify the path in the code to your local path and comment out the code that is only available in Google Colaboratory.
+To run the project locally:
+- Adjust file paths in the code to your local directories.
+- Set up your environment using Anaconda and CUDA as needed. See the installation guide below for details.
 
-#### Installation
+#### Installation Guide
 Here we provide an example of how to install the environment on a local machine using anaconda and CUDA 11.8. For non-GPU & other CUDA version installation, please refer to the [PyTorch website](https://pytorch.org/get-started/locally/) when installing PyTorch. We remark that this repository does not depend on a specific CUDA version, feel free to use any CUDA version suitable on your own computer.
 
 ``` Bash
 # create conda environment
-conda create -n bdd python=3.9
+conda create -n bdd python=3.9 -y
 conda activate bdd
 conda install numpy pandas matplotlib scikit-learn xgboost jupyter pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
 
-Even though we provide environment.yml, it may have redundancy. We recommend you try to install other required packages by running the code and finding which required package hasn't installed yet.
+Even though here we provide environment.yml, it may have redundancy. We recommend you try to install other required packages by running the code and finding which required package hasn't been installed yet.
 
