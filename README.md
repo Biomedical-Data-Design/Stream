@@ -1,6 +1,6 @@
 # Stream
 
-**Biomedical Data Design Project**
+**Biomedical Data Design Project Repo.**
 
 Zhenyu Xiao*, Haobin Zhou*, Yimeng Xu, and Emma Cardenas.
 
