@@ -2,7 +2,7 @@
 
 **Biomedical Data Design Project**
 
-Zhenyu Xiao, Haobin Zhou, Yimeng Xu, and Emma Cardenas.
+Zhenyu Xiao*, Haobin Zhou*, Yimeng Xu, and Emma Cardenas.
 
 We are a group of students from **Johns Hopkins University**. This project is focusing on **Track patient recovery in real-time by processing streaming data** in the course **Biomedical Data Design**.
 
