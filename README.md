@@ -14,7 +14,7 @@ The database used in this project is **eICU**, you may access the database on th
 This project is written in Python 3. You can use the software online using [Colaboratory](#Colaboratory) and upload your data to your Google Drive (Recommended), or run it on your [local machine](#Local).
 
 ### <a name="Colaboratory">Google Colaboratory</a>
-When using Google Colaboratory, all the csv files will be generated in the directory 'My Drive/Colab Notebooks'.
+When using Google Colaboratory, most of the csv files will be generated in the directory 'My Drive/Colab Notebooks'.
 
 #### STEP 1: Clone Github Repo into Colaboratory
 To clone the Github Repository into Google Colaboratory, click and run [this link](https://colab.research.google.com/drive/10gxtdar30BKisl2nQVtBzF25HMZpFht3?usp=drive_linkhttps://colab.research.google.com/drive/10gxtdar30BKisl2nQVtBzF25HMZpFht3?usp=drive_link). You will create a folder named 'Stream' in your Google Drive.
