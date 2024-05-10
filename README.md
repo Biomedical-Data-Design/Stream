@@ -28,10 +28,33 @@ Upload eICU files (unzipped) to your Google Drive and rename the path as: 'EICU/
 Go to file 'Stream/Preprocess/func_check_patient_num.ipynb' and run the notebook. This notebook will extract patients with all 13 features available and generate the file 'Final_available_patients.csv'. The generated file should be in 'My Drive/Colab Notebooks'. This step shall take a few minutes if using the whole eICU database.
 
 
-**Step 4: Align Data**
+**Step 4: Extract Data & Align**
 
-Run all 
+Run all features' extract functions and interpolate functions in the 13 other notebooks in 'Stream/Preprocess'. They are named as follows:
+* BloodPressure.ipynb
+* Glasgow.ipynb
+* HeartRate.ipynb
+* lab1.ipynb
+* lab2.ipynb
+* lab3.ipynb
+* lab4.ipynb
+* lab5.ipynb
+* lab6.ipynb
+* Pao2fio2-fio2.ipynb
+* Pao2fio2-pao2.ipynb
+* Temp.ipynb
+* Urine.ipynb
+
+The preprocessed data will be saved in 'My Drive/Colab Notebooks' directory in the format of 'feature_name.csv'. 
 
 
+**Step 5: Concatenate Data for Models**
 
+First, run 'Stream/Preprocess/Patient_Results.ipynb' to generate 'mortality_data.csv'. Then, run 'Stream/Preprocess/Organize_all_data.ipynb' to merge all the features into one file.
+
+As written in the paper, we used 3 machine learning models and 1 deep learning model.
+
+For the 3 machine learning models, you can use the file in [this link](https://drive.google.com/file/d/10RkQjXARP12Cg5cZ0VMmo3SdQujcRlHw/view?usp=drive_link) as the input data and run the notebook 'Stream/Models/ml_models.ipynb'.
+
+For the deep learning model, you can use the files in [this link](https://drive.google.com/drive/folders/16Yx3xpf1utNfylB_NOchDhEWlTB2L7U5?usp=drive_link) as the input data and run the notebook 'Stream/Models/LSTM.ipynb'.
 
