@@ -76,5 +76,5 @@ conda activate bdd
 conda install numpy pandas matplotlib scikit-learn xgboost jupyter pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
 
-Even though here we provide environment.yml, it may have redundancy. We recommend you try to install other required packages by running the code and finding which required package hasn't been installed yet.
+Even though here we provide 'environment.yaml', it may have redundancy. We recommend you try to install other required packages by running the code and finding which required package hasn't been installed yet.
 
