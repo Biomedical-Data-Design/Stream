@@ -56,9 +56,9 @@ Run 'Stream/Preprocess/Organize_all_data.ipynb' to merge all the features into '
 
 As written in Section 4 of the paper, we used 3 machine learning models and 1 deep learning model.
 
-For Machine Learning models, simply use [this file](https://drive.google.com/file/d/10RkQjXARP12Cg5cZ0VMmo3SdQujcRlHw/view?usp=drive_link), then run the notebook 'Stream/Models/ml_models.ipynb' to evaluate the performance of ML models.
+For **Machine Learning models**, run the notebook 'Stream/Preprocessing/ml_models.ipynb' or use [this file](https://drive.google.com/file/d/10RkQjXARP12Cg5cZ0VMmo3SdQujcRlHw/view?usp=drive_link), then run the notebook 'Stream/Models/ml_models.ipynb' to evaluate the performance of ML models.
 
-For LSTM, run the notebook 'Stream/Preprocessing/Balance_LSTM.ipynb' to generate the balanced data or use the files in [this link](https://drive.google.com/drive/folders/16Yx3xpf1utNfylB_NOchDhEWlTB2L7U5?usp=drive_link), then run the notebook 'Stream/Models/LSTM.ipynb' to evaluate the performance of LSTM (you may use GPU to accelerate this final process). 
+For **LSTM**, run the notebook 'Stream/Preprocessing/Balance_LSTM.ipynb' to generate the balanced data or use the files in [this link](https://drive.google.com/drive/folders/16Yx3xpf1utNfylB_NOchDhEWlTB2L7U5?usp=drive_link), then run the notebook 'Stream/Models/LSTM.ipynb' to evaluate the performance of LSTM (you may use GPU to accelerate this final process). 
 
 
 ### <a name="Local">Local Machine</a>
