@@ -62,14 +62,17 @@ For LSTM, run the notebook 'Stream/Preprocessing/Balance_LSTM.ipynb' to generate
 
 
 ### <a name="Local">Local Machine</a>
-
+When running on a local machine, you need to modify the path in the code to your local path and comment out the code that is only available in Google Colaboratory.
 
 #### Installation
-Here we provide an example of how to install the environment on a local machine using anaconda with Nvidia GPU available. For non-GPU installation, please refer to the [PyTorch website](https://pytorch.org/get-started/locally/) when installing PyTorch. We remark that this repository does not depend on a specific CUDA version, feel free to use any CUDA version suitable on your own computer.
+Here we provide an example of how to install the environment on a local machine using anaconda and CUDA 11.8. For non-GPU & other CUDA version installation, please refer to the [PyTorch website](https://pytorch.org/get-started/locally/) when installing PyTorch. We remark that this repository does not depend on a specific CUDA version, feel free to use any CUDA version suitable on your own computer.
 
 ``` Bash
 # create conda environment
-conda create -n bdd python==3.9 -y
+conda create -n bdd python=3.9
 conda activate bdd
+conda install numpy pandas matplotlib scikit-learn xgboost jupyter pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
 ```
+
+Even though we provide environment.yml, it may have redundancy. We recommend you try to install other required packages by running the code and finding which required package hasn't installed yet.
 
