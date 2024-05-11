@@ -47,7 +47,8 @@ Run these notebooks in 'Stream/Preprocess' to extract data and interpolate with 
 * lab6_bilirubin.ipynb
 * Patient_Results.ipynb
 
-***This step will be time-consuming if using the whole eICU database, we recommend running these notebooks parallelly in different Colab notebooks.***
+***This step will be time-consuming if using the whole eICU database***
+***We recommend running these notebooks parallelly in different Colab notebooks to save time.***
 
 
 #### Step 5: Concatenate Data & Run
