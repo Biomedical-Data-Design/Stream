@@ -49,7 +49,7 @@ Run these notebooks in 'Stream/Preprocess' to extract data and interpolate with 
 
 ***This step will be time-consuming if using the whole eICU database.***
 
-***We recommend running these notebooks parallelly in different Colab notebooks to save time.***
+***We recommend running these notebooks parallelly in different Colab sessions to save time.***
 
 
 #### Step 5: Concatenate Data & Run
