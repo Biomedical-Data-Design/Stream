@@ -39,12 +39,12 @@ Run these notebooks in 'Stream/Preprocess' to extract data and interpolate with 
 * Pao2fio2-pao2.ipynb
 * Temp.ipynb
 * Urine.ipynb
-* lab1.ipynb
-* lab2.ipynb
-* lab3.ipynb
-* lab4.ipynb
-* lab5.ipynb
-* lab6.ipynb
+* lab1_BUN.ipynb
+* lab2_WBC.ipynb
+* lab3_bicarbonate.ipynb
+* lab4_sodium.ipynb
+* lab5_potassuim.ipynb
+* lab6_bilirubin.ipynb
 * Patient_Results.ipynb
 
 ***This step will be time-consuming if using the whole eICU database, we recommend running these notebooks parallelly in different Colab notebooks.***
