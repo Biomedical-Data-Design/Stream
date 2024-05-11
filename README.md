@@ -21,7 +21,7 @@ To clone the Github Repository into Google Colaboratory, click and run [this lin
 
 
 #### STEP 2: Upload eICU
-Upload the unzipped eICU files to your Google Drive under 'EICU/eicu-collaborative-research-database-2.0'.
+Upload the unzipped eICU files to your Google Drive under 'My Drive/EICU/eicu-collaborative-research-database-2.0'.
 
 
 #### STEP 3: Extract Available Patient IDs
